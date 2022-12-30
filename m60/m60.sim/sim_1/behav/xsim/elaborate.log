@@ -1,0 +1,21 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto 7f18828150a34e63995305cb593dc461 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot m_60_tb_behav xil_defaultlib.m_60_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'dout' [/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v:31]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'dout' [/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v" Line 23. Module m_60 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v" Line 38. Module m_10 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v" Line 62. Module m_6 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.m_10
+Compiling module xil_defaultlib.m_6
+Compiling module xil_defaultlib.m_60
+Compiling module xil_defaultlib.m_60_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot m_60_tb_behav

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m_60
+INFO: [VRFC 10-2458] undeclared symbol dout10, assumed default net type wire [/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v:31]
+INFO: [VRFC 10-2458] undeclared symbol dout6, assumed default net type wire [/headless/Desktop/m60/m60.srcs/sources_1/new/m_60.v:32]
+INFO: [VRFC 10-311] analyzing module m_10
+INFO: [VRFC 10-311] analyzing module m_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/headless/Desktop/m60/m60.srcs/sim_1/new/m_60_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m_60_tb
